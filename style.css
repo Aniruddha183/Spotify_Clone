@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image:url("bg.png");
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(4, 0, 0);
+    padding: 15px;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 17px;
+    float: right;
+    font-weight: 600;
+    
+  }
+  
+  .topnav a:hover {
+    
+    color: rgb(15, 173, 67);
+  }
+
+a :nth-child(2){
+    border: 10px solid white;
+  }
+
+.logo-image{
+  width: 40px;
+  height: 25px;
+  
+}
+
+.logo-image img{
+    display: block;
+    width: 112px;
+    height: 36px;
+    margin: -6px 10px 2px -715px;
+}
+  
+.hero button{
+    position: absolute;
+    bottom: 7px;   
+    left:653px;
+    size: 10px;
+    border: none;
+    background-color:rgb(44 214 100) ;
+    border-radius: 100px;
+    cursor: pointer;
+    color: rgb(17 72 169);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 1000;
+    padding: 17px 92px;
+    font-size: 18px;
+    transition: all ease 0.1s;
+    
+    
+}
+
+  
+button:hover{
+  
+    padding: 18px 94px;
+    background-color:rgb(89, 215, 131) ;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0px 0px;
+    margin-left: 320px;
+    box-sizing: border-box;
+   
+
+}
+
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: black;
+    padding: 70px 0px;
+    margin: -9px 0px;
+    position: relative;
+    top:740px ;
+    bottom:0px ;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin: 0px 0px;
+}
+
+.footer-col h4{
+    font-size: 13px;
+    color: rgb(188, 180, 180);
+    position: relative;
+    margin-bottom: 30px;
+    padding: 11px 27px;
+    margin: 19px 0px;
+}
+.footer-col ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    padding: 5px 0px;
+}
+
+.footer-col ul li a:hover{
+    color:  rgb(15, 173, 67);
+}
+
+
+.social-links{
+    margin: 0px 0px 0px 0px;
+}
+.social-links i{
+    font-size: 33px;
+    text-decoration: none;
+    padding: 0px 19px 0px 0px;
+    margin: 0px 8px;
+    font-style: normal;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.social-links a:hover{
+    color: rgb(15, 173, 67);
+}
+
+.row .logo-image img{
+    color: wheat;
+}
+
+
+
+.logo-image-2 img{
+    width: 124px;
+    height: 37px;
+    display: block;
+    margin: 0px 0px 0px 148px;
+    padding: 0px 0px 0px 0px;;
+    
+}
+.logo-image-2{
+    height: 0px;
+    width: 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    top: 24px;
+    bottom: 0px;
+}
